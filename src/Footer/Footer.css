@@ -1,0 +1,43 @@
+.container-footer {
+    display: flex;
+    background-color: var(--cor2);
+    padding: 0;
+    width: 100%;
+    margin-top: 82px;
+    height: 80px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+
+
+
+}
+
+h1 {
+    font-family: Nunito;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 1300){
+    body {
+        height: 100%;
+    }
+    
+    main {
+        display: block;
+        margin: 5% 20%;
+    }
+    nav {
+        display: block;
+    }
+    .gatologo {
+        justify-content: start;
+        height: auto;
+        width: auto;
+    }
+    .gatos {
+        display: block;
+    } 
+}

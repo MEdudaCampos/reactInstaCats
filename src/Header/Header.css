@@ -1,0 +1,56 @@
+:root {
+    --cor1: #EFF5F5;
+    --cor2: #EB6440;
+}
+
+.nunito-conteinerNav {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+nav {
+    top: 0;
+    z-index: 2;
+    position: fixed;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.418) ;
+    width: 100%;
+    background-color: var(--cor2);
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+nav span {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: center;
+    margin-right: 160px;
+    word-spacing: 66px;
+    gap: 80px;
+} 
+
+nav a:hover {
+    color: #faa454;;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 0em;
+   
+    
+}
+
+.gatologo {
+    object-fit: cover;
+    margin-left: 160px;
+}
